@@ -1,9 +1,9 @@
 CodeGps::Application.routes.draw do
   get "basepages/home"
-
   get "basepages/help"
-
   get "basepages/about"
+  get "basepages/contact"
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
