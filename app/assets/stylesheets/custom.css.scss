@@ -12,4 +12,31 @@
 h1.hero_welcome {
 	color:	#999;
 }
+/* footer */
+
+footer ul {
+	float:	right;
+	list-style: none;
+	margin-top: 20px;
+}
+
+footer ul li {
+	float:	left;
+	margin-left: 10px;
+}
+
+footer p {
+	float:	left;
+	color:	#b2b1b1;
+}
+
+.footer_nav {
+	color:	#b2b1b1;
+}
+
+.footer_nav:hover {
+	color:	#121211;
+} 
+
+
 
