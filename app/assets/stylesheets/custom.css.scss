@@ -1,7 +1,19 @@
 /* general */
 
+body {
+	padding-top:	20px;
+}
+
+/*.navbar {
+	background-color: rgba(119, 119, 119, 0.5);
+} want to creat a tranparent nav bar
+*/
+
 .center {
 	text-align:	center;
+	h1 {
+		margin-bottom:	10px;
+	}
 }
 
 .logo_pop {
