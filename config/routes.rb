@@ -1,9 +1,9 @@
 CodeGps::Application.routes.draw do
   
-  get "basepages/home"
-  match "basepages/help",     to: "basepages#help"
-  match "basepages/about",    to: "basepages#about"
-  match "basepages/contact",  to: "basepages#contact"
+  root to: "basepages#home"
+  match "/help",     to: "basepages#help"
+  match "/about",    to: "basepages#about"
+  match "/contact",  to: "basepages#contact"
 
 
   # The priority is based upon order of creation:
