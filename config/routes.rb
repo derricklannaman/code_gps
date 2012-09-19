@@ -1,6 +1,10 @@
 CodeGps::Application.routes.draw do
-  
+
   root to: "basepages#home"
+
+  #resources :user
+  match "signup", to: "users#new"
+
   match "/help",     to: "basepages#help"
   match "/about",    to: "basepages#about"
   match "/contact",  to: "basepages#contact"
