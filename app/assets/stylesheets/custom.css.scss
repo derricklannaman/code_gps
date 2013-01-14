@@ -29,9 +29,14 @@ body {
 	}
 }
 
+.center.hero-unit {
+box-shadow: inset 0px 0px 15px black;
+}
+
 .logo_pop {
 	color: orange;
 	font-size:	1.3em;
+	text-shadow:	0px 0px 15px #000;
 }
 
 .tag_pop {
