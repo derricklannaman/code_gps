@@ -2,6 +2,8 @@
 
 body {
 	padding-top:	20px;
+	background:	url('hixs_pattern_evolution.png');
+
 }
 
 /*.navbar {
@@ -10,9 +12,14 @@ body {
 */
 
 /* logo */
+.navbar .navbar-inner {
+	background: orange !important;
+}
 
 .navbar .brand {
 	margin-left: -12px;
+	color:	#000;
+	font-size: 1.5em;
 }
 
 .center {
@@ -25,6 +32,10 @@ body {
 .logo_pop {
 	color: orange;
 	font-size:	1.3em;
+}
+
+.tag_pop {
+	font-size:	1.2em;
 }
 
 h1.hero_welcome {
@@ -57,8 +68,8 @@ footer p {
 }
 
 .footer_nav:hover {
-	color:	#121211;
-} 
+	color:	orange;
+}
 
 
 
